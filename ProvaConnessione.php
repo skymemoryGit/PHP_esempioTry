@@ -14,6 +14,20 @@
     
     
     
+        $sql="SELECT * FROM studente";
+        foreach($db-> query(&sql) as $row) {
+            print"<br/>";
+            print $row['nome'].'-'. $row['matricola'].'<br/>;
+        
+        }
+
+
+
+
+
+
+
+
     
     }
 	catch (PDOException $e) {
@@ -23,8 +37,8 @@
 
 
 
-    $result = $db->query("SELECT matricola FROM studente");
-    echo $result;
+   
+    
 
 
 
