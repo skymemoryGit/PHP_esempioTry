@@ -17,7 +17,7 @@
         $sql="SELECT * FROM studente";
         foreach($db-> query(&sql) as $row) {
             print"<br/>";
-            print $row['nome'].'-'. $row['matricola'].'<br/>;
+            print $row['nome'].'-'. $row['matricola'].'<br/>';
         
         }
 
