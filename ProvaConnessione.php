@@ -23,8 +23,8 @@
 
 
 
-    $result = $myPDO->query("SELECT matricola FROM Studente");
-    echo .$result;
+    $result = $db->query("SELECT matricola FROM Studente");
+    echo $result;
 
 
 
