@@ -23,6 +23,9 @@ $stmt->execute();
 $num = $stmt->rowCount();
   
 //check if more than 0 record found
+
+echo "porco D";
+print $num;
 if($num>0){
   
     //start table
