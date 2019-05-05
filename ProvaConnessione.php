@@ -23,7 +23,7 @@
 
 
 
-    $result = $db->query("SELECT matricola FROM Studente");
+    $result = $db->query("SELECT matricola FROM studente");
     echo $result;
 
 
