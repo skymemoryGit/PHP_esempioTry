@@ -1,6 +1,6 @@
 <?php
 	//print_r(PDO::getAvailableDrivers());
-	$dbname='yejianchen';	//forcatoalb
+	$dbname='yejianchen';	
 	$dbusername='webdb';	//webdb
 	$dbpassword='webdb';		//webdb
 	
@@ -15,7 +15,7 @@
     
     
         $sql="SELECT * FROM studente";
-        foreach($db-> query(&sql) as $row) {
+        foreach($db -> query(&sql) as $row) {
             print"<br/>";
             print $row['nome'].'-'. $row['matricola'].'<br/>';
         
