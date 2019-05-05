@@ -18,5 +18,16 @@
     }
 	catch (PDOException $e) {
 		echo "Errore". $e->getMessage();
-	}
+    }
+    
+
+
+
+    $result = $myPDO->query("SELECT matricola FROM Studente");
+    echo .$result;
+
+
+
+
+
 ?>
