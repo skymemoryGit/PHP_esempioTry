@@ -18,13 +18,13 @@
 		echo "Errore". $e->getMessage();
     }
 
-
+    
     $prova= $db->query("SELECT matricola FROM studente");
     echo prova;
-    while($row = $prova->fetch()){
-        echo $row["matricola"];
-    }
 
+    while($row = $prova->fetch()){
+        <?php echo $row["matricola"]; ?>
+    }
 
     
 
