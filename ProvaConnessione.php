@@ -1,8 +1,8 @@
 <?php
 	//print_r(PDO::getAvailableDrivers());
 	$dbname='yejianchen';	
-	$dbusername='webdb';	//webdb
-	$dbpassword='webdb';		//webdb
+	$dbusername='yejianchen';	//webdb
+	$dbpassword='Random1996!';		//webdb
 	
 	// Connessione al database
 	//Nuova istanza della classe PDO
