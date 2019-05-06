@@ -14,7 +14,8 @@
     
     
     
-        
+        $prova= $db->query("SELECT matricola from studente");
+        echo prova;
 
 
 
