@@ -14,7 +14,7 @@
     
     
     
-        //select all data
+        //select all data plpp
     $query = "SELECT nome, cognome, matricola FROM studente";
     $stmt = $con-> prepare( $query );
     $stmt->execute();
