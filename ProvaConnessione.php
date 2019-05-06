@@ -16,7 +16,7 @@
     
         //select all data plpp
     $query = "SELECT nome, cognome, matricola FROM studente";
-    $stmt = $con-> prepare( $query );
+    $stmt = $db-> prepare( $query );
     $stmt->execute();
   
     // this is how to get number of rows returned
@@ -93,14 +93,14 @@ else{
      
         //select all data
         $query = "SELECT nome, cognome, matricola FROM studente";
-        $stmt = $con-> prepare( $query );
+        $stmt = $db-> prepare( $query );
         $stmt->execute();
       
         // this is how to get number of rows returned
         $num = $stmt->rowCount();
       
     //  check if more than 0 record found
-    
+    S
     echo "porco D";
     print $num;
     if($num>0){
