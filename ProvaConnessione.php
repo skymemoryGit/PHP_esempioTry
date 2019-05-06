@@ -13,30 +13,16 @@
 		//echo "Connessione col DB OK";
     
     
-    
-        $prova= $db->query("SELECT matricola from studente");
-        echo prova;
-
-
-
-
-
-
-
-    
     }
 	catch (PDOException $e) {
 		echo "Errore". $e->getMessage();
     }
+
+
+    $prova= $db->query("SELECT matricola from studente");
+    echo prova;
+
+
     
-
-
-   
-   
-    
-
-
-
-
 
 ?>
