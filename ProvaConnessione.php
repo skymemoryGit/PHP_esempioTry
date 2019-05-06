@@ -19,8 +19,11 @@
     }
 
 
-    $prova= $db->query("SELECT matricola from studente");
+    $prova= $db->query("SELECT matricola FROM studente");
     echo prova;
+    while($row = $prova->fetch()){
+        echo $row["matricola"];
+    }
 
 
     
