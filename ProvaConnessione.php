@@ -24,8 +24,9 @@
 
 		
 		$sql=$db->query("SELECT * FROM studente;");
-		$sql->setFetchMode(PDO::FETCH_BOTH);
-		echo "dopo istruzione";
+		//$sql->setFetchMode(PDO::FETCH_BOTH);
+		
+		echo "_____dopo istruzione";
 
 	
 
