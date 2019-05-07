@@ -19,7 +19,8 @@
     }
 
     
-    $prova= $db->query("SELECT matricola FROM studente");
+		$prova= $db->query("SELECT matricola FROM studente");
+		echo 	$prova;
     echo "passato";
     
 
