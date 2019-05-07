@@ -22,10 +22,10 @@
 
 		echo "dopo catch";
 
-		/*
+		
 		$sql=$db->query("SELECT * FROM studente;");
 		$sql->setFetchMode(PDO::FETCH_BOTH);
-		/*	
+		echo "dopo istruzione";
 
 	
 
