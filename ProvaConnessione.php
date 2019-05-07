@@ -22,17 +22,18 @@
 
 		echo "dopo catch";
 
-		$sql=$db->query("SELECT * FROM studente;");
+		/+	$sql=$db->query("SELECT * FROM studente;");
 		$sql->setFetchMode(PDO::FETCH_BOTH);
 
 
 		<?php
 				while($row=$sql->fetch()){
+					
 						$lstStand=$row;
 				  echo '<tr><td>'.$row['matricola'].'</td><td>'.$row['nome'].'</td><td>'.$row['cognome'].'</td>';
 					}
 			?>
-
+					*/
 		
  
  
