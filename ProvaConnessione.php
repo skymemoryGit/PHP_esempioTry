@@ -33,7 +33,16 @@
     
     $sql=$db->query("SELECT * FROM studenti;");
     $sql->setFetchMode(PDO::FETCH_BOTH);
- 		?>
-    
+		 ?>
+		 
+
+		 <table class="vis" width="75%" border="1" align="center">
+		 <?php
+				while($row=$sql->fetch()){
+						$lstStand=$row;
+				  echo '<tr><td>'.$row['matricola'].'</td><td>'.$row['nome'].'</td><td>'.$row['cognome'].'</td>';
+					}
+			?>
+    </table>
 
 ?>
