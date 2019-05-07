@@ -18,12 +18,22 @@
 		echo "Errore". $e->getMessage();
     }
 
-    
+		
+		/*
 		$prova= $db->query("SELECT matricola FROM studente");
 		echo 	$prova;
     echo "passato";
-    
+    */
 
+
+		<?php
+    ini_set('display_errors', 1);
+		ini_set('display_startup_errors', 1);
+    error_reporting(E_ALL | E_STRICT);
+    
+    $sql=$db->query("SELECT * FROM studenti;");
+    $sql->setFetchMode(PDO::FETCH_BOTH);
+ 		?>
     
 
 ?>
